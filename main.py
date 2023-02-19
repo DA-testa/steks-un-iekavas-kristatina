@@ -30,18 +30,16 @@ def find_mismatch(text):
 
 
 def main():
-    # Printing answer, write your code here
     izvele = input("F vai I?")
     if "F" in izvele:
         F_path = input("faila ceļš: ")
-        with (open(F_path, "r") as f:
+        with open(F_path, "r") as f:
               text = f.read()
-              print find_mismatch(text)
+              print(find_mismatch(text))
     elif "I" in izvele:
               text = input()
-              mismatch = find_mismatch(text)
-              print(mismatch)
-
+              print(find_mismatch(text))
+              
 
 if __name__ == "__main__":
     main()
