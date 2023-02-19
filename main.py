@@ -1,4 +1,5 @@
 # python3
+#Kristīne Berķe 221RDB109 
 
 from collections import namedtuple
 
